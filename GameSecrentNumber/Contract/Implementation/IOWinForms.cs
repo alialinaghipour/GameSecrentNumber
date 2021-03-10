@@ -37,7 +37,7 @@ namespace Contract.Implementation
             else if (result == ResultGame.Bigger)
             {
                 _utility.ShowMeesage(
-                    "Became more",
+                    "Your number is bigger",
                     "more",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
@@ -45,7 +45,7 @@ namespace Contract.Implementation
             else if (result == ResultGame.Smaller)
             {
                 _utility.ShowMeesage(
-                    "It became less",
+                    "Your number is small",
                     "less",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Warning);

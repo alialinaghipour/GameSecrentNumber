@@ -29,11 +29,11 @@ namespace Contract.Implementation
                 }
                 else if (result == ResultGame.Bigger)
                 {
-                    _utility.PrintText("Became more", ConsoleColor.Red);
+                    _utility.PrintText("Your number is bigger", ConsoleColor.Red);
                 }
                 else if (result == ResultGame.Smaller)
                 {
-                    _utility.PrintText("It became less", ConsoleColor.Yellow);
+                    _utility.PrintText("Your number is small", ConsoleColor.Yellow);
                 }
         }
     }

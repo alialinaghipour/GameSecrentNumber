@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Tools\Tools.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contract", "Contract\Contract.csproj", "{757D2AB1-7F73-4118-8AB2-0DEAB56139D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormUI", "WinFormUI\WinFormUI.csproj", "{3EC192DA-6E98-47DF-9EBD-C4715BDCAD7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindFormsUI", "WindFormsUI\WindFormsUI.csproj", "{765135AB-377C-4FC2-81C8-98B74BB66C74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{757D2AB1-7F73-4118-8AB2-0DEAB56139D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{757D2AB1-7F73-4118-8AB2-0DEAB56139D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{757D2AB1-7F73-4118-8AB2-0DEAB56139D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3EC192DA-6E98-47DF-9EBD-C4715BDCAD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EC192DA-6E98-47DF-9EBD-C4715BDCAD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EC192DA-6E98-47DF-9EBD-C4715BDCAD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EC192DA-6E98-47DF-9EBD-C4715BDCAD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{765135AB-377C-4FC2-81C8-98B74BB66C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765135AB-377C-4FC2-81C8-98B74BB66C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765135AB-377C-4FC2-81C8-98B74BB66C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765135AB-377C-4FC2-81C8-98B74BB66C74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

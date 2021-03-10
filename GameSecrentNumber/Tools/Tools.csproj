@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility\UtilityConsole.cs" />
-    <Compile Include="Utility\UtilityWin.cs" />
+    <Compile Include="Utility\UtilityWinForms.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,11 +8,11 @@ namespace Contract.Implementation
 {
     public class IOConsole : IO
     {
-        UtilityWin _utility;
+        UtilityConsole _utility;
 
         public IOConsole()
         {
-            _utility = new UtilityWin();
+            _utility = new UtilityConsole();
         }
 
         public int GetUserAnswer(int answer = 0)

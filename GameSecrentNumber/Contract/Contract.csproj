@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Implementation\GameImp.cs" />
     <Compile Include="Implementation\IOConsole.cs" />
-    <Compile Include="Implementation\IOWinForm.cs" />
+    <Compile Include="Implementation\IOWinForms.cs" />
     <Compile Include="Interface\Game.cs" />
     <Compile Include="Interface\IO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

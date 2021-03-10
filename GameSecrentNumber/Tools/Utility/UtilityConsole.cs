@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows.Forms;
 
 namespace Tools.Utility
 {
-    public class UtilityWin
+    public class UtilityConsole
     {
         public void PrintText(string text,ConsoleColor color=ConsoleColor.White)
         {

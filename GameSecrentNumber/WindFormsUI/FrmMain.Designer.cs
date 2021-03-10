@@ -30,9 +30,9 @@ namespace WindFormsUI
         private void InitializeComponent()
         {
             this.btnStartApp = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.txtNumber = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtNumber)).BeginInit();
             this.SuspendLayout();
             // 
             // btnStartApp
@@ -43,19 +43,20 @@ namespace WindFormsUI
             this.btnStartApp.TabIndex = 0;
             this.btnStartApp.Text = "شروع کنید";
             this.btnStartApp.UseVisualStyleBackColor = true;
+            this.btnStartApp.Click += new System.EventHandler(this.btnStartApp_Click);
             // 
-            // numericUpDown1
+            // txtNumber
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(12, 35);
-            this.numericUpDown1.Minimum = new decimal(new int[] {
+            this.txtNumber.Location = new System.Drawing.Point(12, 35);
+            this.txtNumber.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(156, 20);
-            this.numericUpDown1.TabIndex = 1;
-            this.numericUpDown1.Value = new decimal(new int[] {
+            this.txtNumber.Name = "txtNumber";
+            this.txtNumber.Size = new System.Drawing.Size(156, 20);
+            this.txtNumber.TabIndex = 1;
+            this.txtNumber.Value = new decimal(new int[] {
             1,
             0,
             0,
@@ -76,13 +77,14 @@ namespace WindFormsUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(180, 112);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.txtNumber);
             this.Controls.Add(this.btnStartApp);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FrmMain";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.Load += new System.EventHandler(this.FrmMain_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.txtNumber)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -91,7 +93,7 @@ namespace WindFormsUI
         #endregion
 
         private System.Windows.Forms.Button btnStartApp;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown txtNumber;
         private System.Windows.Forms.Label label1;
     }
 }
